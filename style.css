@@ -90,3 +90,57 @@ li{ margin: 8px 0; color: var(--text); }
   color: var(--muted);
   font-size: 14px;
 }
+.topbar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(11,12,15,.78);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+
+.topbar-inner{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.brand{
+  font-weight: 800;
+  letter-spacing: .3px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: transparent;
+}
+
+.nav{
+  display:flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.nav a{
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.nav a:hover{ color: var(--text); text-decoration: none; }
+
+.nav-actions{
+  margin-left: auto;
+  display:flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.smallbtn{
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 13px;
+}
