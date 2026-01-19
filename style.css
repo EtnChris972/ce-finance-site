@@ -144,3 +144,48 @@ li{ margin: 8px 0; color: var(--text); }
   font-weight: 700;
   font-size: 13px;
 }
+.hero{
+  padding: 96px 20px 72px;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(207,210,255,.08), transparent),
+    radial-gradient(800px 400px at 90% 10%, rgba(207,210,255,.06), transparent);
+}
+
+.hero-inner{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.hero-text{
+  max-width: 680px;
+  font-size: 17px;
+  color: var(--text);
+}
+section h3{
+  margin-bottom: 24px;
+}
+
+section p{
+  max-width: 760px;
+}
+
+section ul,
+.grid{
+  margin-top: 12px;
+}
+@media (prefers-reduced-motion: no-preference){
+  section{
+    animation: fadeUp .6s ease both;
+  }
+
+  @keyframes fadeUp{
+    from{
+      opacity:0;
+      transform: translateY(10px);
+    }
+    to{
+      opacity:1;
+      transform: translateY(0);
+    }
+  }
+}
