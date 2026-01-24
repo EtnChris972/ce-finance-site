@@ -1,16 +1,18 @@
+<!-- en.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Christophe Etienne</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <!-- HEADER (same content, full width like the reference) -->
   <header class="header">
     <div class="header-inner">
-      <div class="brand">CE | Financial Controller</div>
+      <div class="brand">CE</div>
 
       <div class="lang-switch">
         <a href="index.html">FR</a>
@@ -19,70 +21,127 @@
       </div>
     </div>
   </header>
-  <main class="container">
-    <section class="bento">
 
-      <!-- HERO LEFT -->
-      <div class="card hero-left">
-        <h1>Christophe Etienne</h1>
-        <p class="lead">Turning financial processes into efficient systems.</p>
-        <p>
-          I specialize in bookkeeping automation, financial reporting, and performance analysis
-          to help organizations gain visibility, efficiency, and control over their finances.
-        </p>
-        <a href="assets/CV_Christophe_Etienne.pdf" class="btn">Download CV</a>
-      </div>
+  <main class="page">
+    <section class="layout">
 
-      <!-- PHOTO -->
-      <div class="card hero-photo">
-        <img src="assets/profile.jpg" alt="Christophe Etienne portrait" />
-      </div>
+      <!-- LEFT: EXPERTISE (full height, accordion that pushes items down) -->
+      <aside class="card sidebar" aria-label="Expertise">
+        <div class="sidebar-head">
+          <div class="sidebar-title">Expertise</div>
+        </div>
 
-      <!-- RIGHT LONG LIST (Skills sidebar) -->
-<div class="card sidebar">
-  <div class="sidebar-head">
-    <h2>Expertise</h2>
-  </div>
+        <div class="sidebar-list">
+          <details class="acc" open>
+            <summary>Bookkeeping</summary>
+            <div class="acc-body">
+              End-to-end bookkeeping structure and cleanup, ensuring accurate and reliable financial data.
+            </div>
+          </details>
 
-  <div class="sidebar-list">
-    <a class="sidebar-item" href="#bookkeeping">Bookkeeping</a>
-    <a class="sidebar-item" href="#reporting">Reporting</a>
-    <a class="sidebar-item" href="#budgeting">Budgeting</a>
-    <a class="sidebar-item" href="#automation">Automation</a>
-    <a class="sidebar-item" href="#costing">Costing</a>
-    <a class="sidebar-item" href="#investments">Investment Projects</a>
-    <a class="sidebar-item" href="#taxes">International Taxes</a>
-    <a class="sidebar-item" href="#cashflow">Cashflow Management</a>
-  </div>
-</div>
+          <details class="acc">
+            <summary>Reporting</summary>
+            <div class="acc-body">
+              Financial reporting and dashboards to support management decisions and performance tracking.
+            </div>
+          </details>
 
-      <!-- CONTACT UNDER PHOTO -->
-      <div class="card contact-under">
-        <h2>Contact</h2>
-        <a href="mailto:crisetienne3@gmail.com">crisetienne3@gmail.com</a>
-        <a href="https://www.linkedin.com/in/christophe-etienne-127439270" target="_blank" rel="noopener">
-          LinkedIn ↗
+          <details class="acc">
+            <summary>Budgeting</summary>
+            <div class="acc-body">
+              Budget preparation, monitoring, and variance analysis to improve planning and control.
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary>Automation</summary>
+            <div class="acc-body">
+              Process automation to reduce manual work, improve consistency, and increase efficiency.
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary>Costing</summary>
+            <div class="acc-body">
+              Cost analysis and cost structure reviews to improve margin visibility and pricing decisions.
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary>Investment Projects</summary>
+            <div class="acc-body">
+              Investment analysis and business case support (assumptions, scenarios, ROI, sensitivity).
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary>International Taxes</summary>
+            <div class="acc-body">
+              Administrative follow-up and support for cross-border tax recovery processes.
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary>Cashflow Management</summary>
+            <div class="acc-body">
+              Cashflow visibility and monitoring to support operational decisions and forecasting.
+            </div>
+          </details>
+        </div>
+      </aside>
+
+      <!-- CENTER: PHOTO (same proportions as reference; click to download CV; hover arrow) -->
+      <div class="card photo">
+        <a class="photo-link" href="assets/CV_Christophe_Etienne.pdf" download aria-label="Download CV">
+          <img src="assets/profile.jpg" alt="Portrait" />
+          <div class="photo-arrow" aria-hidden="true">↗</div>
+          <div class="photo-hint">Download CV</div>
         </a>
       </div>
 
-      <!-- ROW 2 -->
-      <div class="card about">
-        <h2>About</h2>
-        <p>
-          I help organizations build reliable financial foundations through structured data,
-          streamlined processes, and decision-ready reporting.
-        </p>
-      </div>
+      <!-- RIGHT: HERO TEXT (wider, text at bottom) -->
+      <section class="card hero-right" aria-label="Hero">
+        <div class="hero-bottom">
+          <div class="hero-name">Christophe Etienne</div>
+          <div class="hero-line">
+            Junior financial controller, proactive, recognized for analytical skills, reliability,
+            and a strong interest in financial process automation.
+          </div>
+        </div>
+      </section>
 
-      <div class="card value">
-        <h2>Value</h2>
-        <p>
-          I turn financial data into actionable insights, improving clarity, control, and efficiency.
-        </p>
-      </div>
+      <!-- CENTER BOTTOM: CONTACT (same proportions; arrow hover like photo) -->
+      <section class="card contact" aria-label="Contact">
+        <a class="contact-link" href="mailto:crisetienne3@gmail.com">
+          <div class="contact-top">
+            <div class="contact-mini">Have some questions?</div>
+            <div class="contact-arrow" aria-hidden="true">↗</div>
+          </div>
+          <div class="contact-title">Contact me</div>
+        </a>
+      </section>
+
+      <!-- RIGHT: VALUE (bottom-right, split inside, runs to bottom) -->
+      <section class="card value" aria-label="Value">
+        <div class="value-block">
+          <div class="value-label">Value</div>
+          <div class="value-text">
+            I turn financial data into actionable insights, improving clarity, control, and efficiency.
+          </div>
+        </div>
+
+        <div class="value-sep" aria-hidden="true"></div>
+
+        <div class="value-block">
+          <div class="value-label">Approach</div>
+          <div class="value-text">
+            Structured workflows, automation-first mindset, and decision-ready reporting.
+          </div>
+        </div>
+      </section>
+
     </section>
   </main>
+
 </body>
 </html>
-
-
