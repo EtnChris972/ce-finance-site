@@ -7,7 +7,7 @@
   --panel2:#0e2142;
   --panel3:#102a52;
 
-  --text:#eaf0ff;
+  --text:#c9c1b1;
   --muted:#b8c6e6;
 
   --radius: 18px;
@@ -48,7 +48,7 @@ a:hover{ text-decoration:none; }
   justify-content:space-between;
   align-items:center;
   border-radius: var(--radius);
-  background: #000000ee;
+  background: #1b2632;
   backdrop-filter: blur(10px);
 }
 
@@ -103,7 +103,7 @@ a:hover{ text-decoration:none; }
 .sidebar{
   grid-column: 4;
   grid-row: 1 / span 2;
-  background: #000000ee;
+  background: #1b2632
   padding: 18px 16px;
   display:flex;
   flex-direction:column;
@@ -220,7 +220,7 @@ a:hover{ text-decoration:none; }
   bottom: 14px;
   padding: 8px 10px;
   border-radius: 999px;
-  background: rgba(0,0,0,.28);
+  background: #1b2632;
   color: var(--text);
   font-size: 12px;
   font-weight: 900;
@@ -237,7 +237,7 @@ a:hover{ text-decoration:none; }
 .hero-right{
   grid-column: 1;
   grid-row: 1;
-  background: #031402;
+  background: #1b2632;
   padding: 18px;
   display:flex;
   align-items: stretch;
@@ -265,7 +265,7 @@ a:hover{ text-decoration:none; }
 .contact{
   grid-column: 2 / span 2;
   grid-row: 2;
-  background: #031402;
+  background: #1b2632;
   padding: 0;
 }
 
@@ -320,7 +320,7 @@ a:hover{ text-decoration:none; }
 .value{
   grid-column: 1;
   grid-row: 2;
-  background: #000000ee;
+  background: #1b2632;
   padding: 18px;
   display:flex;
   flex-direction:column;
