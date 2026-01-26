@@ -2,7 +2,7 @@
 
 /* ===== Base ===== */
 :root{
-  --bg:#1b1b1b9c;
+  --bg:#1b1b1bf5;
   --panel:#9c9ea1;
   --panel2:#0e2142;
   --panel3:#102a52;
@@ -237,7 +237,7 @@ a:hover{ text-decoration:none; }
 .hero-right{
   grid-column: 1;
   grid-row: 1;
-  background: #022701;
+  background: #031402;
   padding: 18px;
   display:flex;
   align-items: stretch;
@@ -265,7 +265,7 @@ a:hover{ text-decoration:none; }
 .contact{
   grid-column: 2 / span 2;
   grid-row: 2;
-  background: #022701;
+  background: #031402;
   padding: 0;
 }
 
