@@ -7,7 +7,7 @@
   --panel2:#0e2142;
   --panel3:#102a52;
 
-  --text:#c9c1b1;
+  --text:#ffb162;
   --muted:#b8c6e6;
 
   --radius: 18px;
@@ -103,7 +103,7 @@ a:hover{ text-decoration:none; }
 .sidebar{
   grid-column: 4;
   grid-row: 1 / span 2;
-  background: #1b2632;
+  background: #2c3b4d;
   padding: 18px 16px;
   display:flex;
   flex-direction:column;
@@ -320,7 +320,7 @@ a:hover{ text-decoration:none; }
 .value{
   grid-column: 1;
   grid-row: 2;
-  background: #1b2632;
+  background: #2c3b4d;
   padding: 18px;
   display:flex;
   flex-direction:column;
