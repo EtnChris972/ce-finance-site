@@ -2,7 +2,7 @@
 
 /* ===== Base ===== */
 :root{
-  --bg:#000000;
+  --bg:#534f4f00;
   --panel:#9c9ea1;
   --panel2:#0e2142;
   --panel3:#102a52;
@@ -48,7 +48,7 @@ a:hover{ text-decoration:none; }
   justify-content:space-between;
   align-items:center;
   border-radius: var(--radius);
-  background: #a1b1bea6;
+  background: hsla(0, 0%, 0%, 0.582);
   backdrop-filter: blur(10px);
 }
 
@@ -103,7 +103,7 @@ a:hover{ text-decoration:none; }
 .sidebar{
   grid-column: 4;
   grid-row: 1 / span 2;
-  background: rgba(14, 33, 66, .55);
+  background: hsla(0, 0%, 0%, 0.582);
   padding: 18px 16px;
   display:flex;
   flex-direction:column;
@@ -237,7 +237,7 @@ a:hover{ text-decoration:none; }
 .hero-right{
   grid-column: 1;
   grid-row: 1;
-  background: #a1b1bea6;
+  background: #1c531a71;
   padding: 18px;
   display:flex;
   align-items: stretch;
@@ -265,7 +265,7 @@ a:hover{ text-decoration:none; }
 .contact{
   grid-column: 2 / span 2;
   grid-row: 2;
-  background: #a1b1bea6;
+  background: #1c531a71;
   padding: 0;
 }
 
@@ -318,9 +318,9 @@ a:hover{ text-decoration:none; }
 
 /* ===== Value (bottom-right; tall + split inside; runs to bottom) ===== */
 .value{
-  grid-column: 4;
+  grid-column: 1;
   grid-row: 2;
-  background: rgba(20, 49, 92, 0.55);
+  background: hsla(0, 0%, 0%, 0.582);
   padding: 18px;
   display:flex;
   flex-direction:column;
