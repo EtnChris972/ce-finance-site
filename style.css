@@ -103,7 +103,7 @@ a:hover{ text-decoration:none; }
 .sidebar{
   grid-column: 4;
   grid-row: 1 / span 2;
-  background: #1b2632
+  background: #000000ee;
   padding: 18px 16px;
   display:flex;
   flex-direction:column;
@@ -220,7 +220,7 @@ a:hover{ text-decoration:none; }
   bottom: 14px;
   padding: 8px 10px;
   border-radius: 999px;
-  background: #1b2632;
+  background: rgba(0,0,0,.28);
   color: var(--text);
   font-size: 12px;
   font-weight: 900;
@@ -265,7 +265,7 @@ a:hover{ text-decoration:none; }
 .contact{
   grid-column: 2 / span 2;
   grid-row: 2;
-  background: #1b2632;
+  background: #031402;
   padding: 0;
 }
 
@@ -320,7 +320,7 @@ a:hover{ text-decoration:none; }
 .value{
   grid-column: 1;
   grid-row: 2;
-  background: #1b2632;
+  background: #000000ee;
   padding: 18px;
   display:flex;
   flex-direction:column;
